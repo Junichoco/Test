@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <title>Test Site</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sidebar.css" >
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#fakemon">Fakemon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#people">People</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photos">Photos</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav> -->
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+    <div class="sidebar">
+        <header>Menu</header>
+        <a href="#">
+            <i class="fas fa-link"></i>
+            <span>Home</span>
+        </a>
+        <a href="#fakemon">
+            <i class="fas fa-paw"></i>
+            <span>Fakemon</span>
+        </a>
+        <a href="#people">
+            <i class="fas fa-child"></i>
+            <span>People</span>
+        </a>
+        <a href="#photos">
+            <i class="fas fa-camera"></i>
+            <span>Photos</span>
+        </a>
+    </div>
+
+    <div class="main-content">
+        <div class="top-container">
+
+
+                <img class="Profile-img" src="images/Profile.jpg" alt="kyokachu-fakemon-img" />
+<div class="title-text">
+                <h1>Sunjun Hwang</h1>
+                <h3>Programmer, Writer, and Artist</h3>
+
+            </div>
+        </div>
+
+
+        <section class="Fakemon" id="fakemon">
+            <h2>Fakemon</h2>
+            <div class="picture-container">
+
+                <img class="Fakemon-img" src="images/Grasspaw.jpg" alt="grasspaw-fakemon-img">
+                <img class="Fakemon-img" src="images/Flariger.jpg" alt="flariger-fakemon-img">
+                <img class="Fakemon-img" src="images/Pipale.jpg" alt="pipale-fakemon-img">
+                <img class="Fakemon-img" src="images/Kimolith.jpg" alt="kimolith-fakemon-img">
+                <img class="Fakemon-img" src="images/Hiblob.jpg" alt="hiblob-fakemon-img">
+                <img class="Fakemon-img" src="images/Shunderee.jpg" alt="shunderee-fakemon-img">
+                <img class="Fakemon-img" src="images/Mudsooey.jpg" alt="mudsooey-fakemon-img">
+                <img class="Fakemon-img" src="images/Sortalil.jpg" alt="sortalil-fakemon-img">
+                <img class="Fakemon-img" src="images/Kyokachu.jpg" alt="kyokachu-fakemon-img">
+            </div>
+        </section>
+
+        <section class="People" id="people">
+            <h2>People</h2>
+            <div class="picture-container">
+                <img class="Person-img" src="images/Amesan.png" alt="amesan-img">
+                <img class="Person-img" src="images/Nagomi-san.jpg" alt="nagomi-san-img">
+                <img class="Person-img" src="images/Minori.jpg" alt="minori-img">
+                <img class="Person-img" src="images/Utena-san.jpg" alt="utena-san-img">
+                <img class="Person-img" src="images/Shina-tan.jpeg" alt="shina-tan-img">
+            </div>
+        </section>
+
+        <section class="Photos" id="photos">
+            <h2>Photos</h2>
+            <div class="picture-container">
+                <img class="Photo-img" src="images/Fushimi Inari.jpg" alt="fushimi-inari-img">
+                <img class="Photo-img" src="images/Toudaiji.jpg" alt="toudaiji-img">
+                <img class="Photo-img" src="images/Art Aquarium.jpg" alt="art-aquarium-img">
+                <img class="Photo-img" src="images/Kamakura.jpg" alt="kamakura-img">
+                <img class="Photo-img" src="images/Meiji Mura.jpg" alt="meiji-mura-img">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="attribution">
+            I customized the wicked cool background on my homepage at <a href="https://www.svgbackgrounds.com/">SVGBackgrounds.com</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
